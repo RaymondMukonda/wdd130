@@ -1,13 +1,26 @@
 :root {
-    --heading-background-color: #f06;
+    --heading-background-color: rgb(216, 48, 174);
     --heading-text-color: #333333;
     --heading-font: 'Montsrrat', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
+h1 {
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+}
+
+aside {
+    margin: 10px auto;
+    padding: var(--padding);
+    box-shadow: 0 0 10px rgba(0 0 0 / 0.1);
+}
+
 nav {
-    background-color: aquamarine;
+    background-color: rgba(114, 196, 169, 0.886);
     padding: 10px;
 }
 
