@@ -1,0 +1,51 @@
+:root {
+    --clr-primary: #BABEE5;
+    --clr-secondary: #edaddf;
+    --clr-accent1: #05c0eb;
+    --clr-accent2: #6397ba;
+}
+
+body {
+    font-family: "Roboto Flex", serif;
+    font-weight: 100;
+    color: var(--clr-primary);
+    background-color: rgb(84, 84, 84);
+}
+
+h1 {
+    font-family: "Roboto Flex", serif;
+    font-weight: 1000;
+    color: var(--clr-primary);
+    background-color: #000000;
+    padding: 10px;
+    position: absolute;
+	font-size: 1.5rem;
+    margin: 2rem auto;
+    top: 45%;
+}
+
+h2 {
+    font-family: "Roboto Flex", serif;
+    font-weight: 800;
+    color: var(--clr-accent1);
+}
+
+a {
+    text-decoration: none
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+
+footer {
+    color:#000000
+}
+
+
