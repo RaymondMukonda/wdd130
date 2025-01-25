@@ -13,15 +13,14 @@ body {
 }
 
 h1 {
-    font-family: "Roboto Flex", serif;
-    font-weight: 1000;
+    font-weight: 800;
     color: var(--clr-primary);
     background-color: #000000;
-    padding: 10px;
+    padding: 25px;
     position: absolute;
 	font-size: 1.5rem;
-    margin: 2rem auto;
-    top: 45%;
+    top: 20px;
+    left: 200px;
 }
 
 h2 {
@@ -35,11 +34,15 @@ a {
 }
 
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+.hero {
     position: relative;
+}
+
+article {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    color:#000000;
 }
 
 
