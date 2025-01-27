@@ -13,14 +13,14 @@ body {
 }
 
 h1 {
-    font-weight: 800;
+    font-weight: 700;
     color: var(--clr-primary);
     background-color: #938f7983;
     padding: 25px;
     position: absolute;
-	font-size: 1.5rem;
-    top: 20px;
-    left: 200px;
+	font-size: 2rem;
+    top: 5px;
+    left: 250px;
 }
 
 h2 {
@@ -33,17 +33,22 @@ a {
     text-decoration: none
 }
 
-
 .hero {
     position: relative;
+}
+
+.hero article img {
+    position: absolute;
+    top: 50px;
+    right: 1px;
 }
 
 article {
     position: absolute;
     top: 130px;
-    left: 130px;
+    right: 130px;
     color:#000000;
-    background-color: #6798b89e;
+    background-color: #938f7983;
 }
 
 header,main,footer {
