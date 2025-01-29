@@ -75,10 +75,11 @@ header{
 h3{
     display: grid;
     grid-template-columns: auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
-    background-color: #4f5b50; 
+    background-color: #4f5b50;
+    flex-wrap: wrap;
 }
 
 figure {
