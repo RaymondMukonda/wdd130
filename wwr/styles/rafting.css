@@ -63,4 +63,32 @@ footer {
     color:#000000
 }
 
+header{
+    display: grid;
+    grid-template-columns: 200px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5e7f9a;
+}
 
+h3{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4f5b50; 
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+  }
