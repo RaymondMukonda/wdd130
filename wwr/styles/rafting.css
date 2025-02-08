@@ -91,7 +91,7 @@ article {
     width:auto;
 }
 
-.header,main,footer {
+header,main,footer {
     max-width: 1200px;
     margin: auto 2rem;
 }
