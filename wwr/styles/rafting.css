@@ -89,6 +89,7 @@ article {
     color:#000000;
     background-color: #938f7983;
     width:auto;
+    padding: 1rem;
 }
 
 header,main,footer {
@@ -120,6 +121,7 @@ header img{
     text-align: center;
     border: 1px solid rgb(0 0 0 /.1);
     background-color: #041520;
+    padding: 2rem;
 }
 
 .Adventure h3 {
