@@ -14,7 +14,6 @@ body {
     color: var(--clr-primary);
     background-color: #38A3A5;
     margin: 8px;
-    font-weight: bold;
 }
 
 header,main,footer {
