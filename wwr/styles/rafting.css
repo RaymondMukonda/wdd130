@@ -34,6 +34,7 @@ nav ul{
     display: flex;
     list-style: none;
     margin: 0;
+    gap: 10px;
 }
 
 header img {
@@ -44,8 +45,8 @@ header img {
 a {
     text-decoration: none;
     color: var(--clr-primary);
-    font-style: italic;
     font-weight: bold;
+    font-style: italic;
 }
 
 h1 {
