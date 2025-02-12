@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: "Roboto Flex", serif;
+    font-family: "old standard";
     color: var(--clr-primary);
     background-color: #38A3A5;
     margin: 8px;
@@ -102,7 +102,6 @@ article {
 }
 
 h2 {
-    font-family: "Roboto Flex", serif;
     font-weight: 800;
     color: var(--clr-accent1);
 }
