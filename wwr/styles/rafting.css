@@ -14,7 +14,14 @@ body {
     color: var(--clr-primary);
     background-color: #38A3A5;
     margin: 8px;
-}
+  }
+
+  .dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 header,main,footer {
     max-width: 1200px;
