@@ -238,14 +238,15 @@ button {
 
 .insight {
     display: grid;
-    grid-template-columns: auto 1fr;
     border: 2px solid rgba(0, 0, 0, 0.322);
     background-color: var(--clr-accent1);
-    padding: 2rem;
-    gap: 10px;
+    grid-row: 1/5;
+    color: var(--clr-primary);
+    padding: 1rem;
+    gap: 5px;
 }
 
-.insight h3 {
-    grid-column: 1/5;
-    color: var(--clr-primary);
+.insight img {
+    width: 200px;
+    height: auto;
 }
