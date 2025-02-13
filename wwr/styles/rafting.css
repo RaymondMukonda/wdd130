@@ -73,6 +73,21 @@ h1 {
     position: relative;
 }
 
+.hero2 {
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    background-color: var(--clr-accent1);
+    padding: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.322);
+}
+
+.hero2 img {
+    width: 1150px;
+    height: 280px;
+}
+
+
 .hero img {
     width: 1184px;
     height: auto;
@@ -149,7 +164,7 @@ h2 {
     height: auto;
 }
 
-  footer {
+footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -219,7 +234,7 @@ button {
 }
 
 .home img {
-    width: 1179px;
+    width: 960px;
     height: 280px;
 }
 
@@ -230,6 +245,7 @@ button {
     display: grid;
     grid-template-rows: auto;
     text-align: center;
+    justify-items: center;
 }
 
 .home h2 {
@@ -249,4 +265,19 @@ button {
 .insight img {
     width: 200px;
     height: auto;
+}
+
+.newsletter {
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    background-color: var(--clr-accent1);
+    padding: 1rem;
+}
+
+.newsletter img {
+    width: 300px;
+    height: auto;
+}
+
+.newsletter a {
+    color: rgb(70, 1, 105, 1);
 }
